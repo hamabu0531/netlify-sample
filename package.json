@@ -1,0 +1,14 @@
+{
+    "name": "netlify-example",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "netlify dev"
+    },
+    "dependencies": {
+        "firebase": "^9.23.0",
+        "firebase-admin": "^9.0.0"
+    },
+    "devDependencies": {
+        "netlify-cli": "^3.0.0"
+    }
+}

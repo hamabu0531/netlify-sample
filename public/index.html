@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行計画アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>旅行計画アプリ</h1>
+    </header>
+    
+    <main>
+        <section>
+            <label for="prefecture">都道府県を選んでください：</label>
+            <select id="prefecture">
+                <option value="tokyo">東京都</option>
+                <option value="kyoto">京都府</option>
+                <option value="osaka">大阪府</option>
+                <!-- 他の都道府県を追加 -->
+            </select>
+            <button id="getRoute">観光地とルートを表示</button>
+        </section>
+
+        <section id="spots">
+            <!-- 観光地リストがここに表示される -->
+        </section>
+
+        <section id="route">
+            <!-- 計算されたルートがここに表示される -->
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
